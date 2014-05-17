@@ -1,0 +1,17 @@
+{
+  "comments": "Get all of the Epics of category 'Department Goal'.",
+  "from": "Epic",
+  "select": [
+    "Name",
+    "Scope.Name",
+    "Scope.EndDate",
+    "Category"
+  ],
+  "where": {
+    "Category.Name": "Department Goal"
+  },
+  "page": {
+    "start": 0,
+    "size": 50
+  }
+}
