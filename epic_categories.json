@@ -1,0 +1,18 @@
+{
+  "comments": "Get all of the Epics of category 'Department Goal'.",
+  "from": "EpicCategory",
+  "select": [
+    "Name",
+    "Order",
+    {
+      "from": "SelectedInSchemes",
+      "select": [
+        "Name"
+      ]
+    }
+  ],
+  "page": {
+    "start": 0,
+    "size": 50
+  }
+}
