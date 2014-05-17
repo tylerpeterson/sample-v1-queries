@@ -15,12 +15,17 @@
       ]
     }
   ],
-  "comments": "change the owner nickname below to search for tasks assigned to different people.",
+  "where": {
+    "Owners.Nickname": "$memberNick"
+  },
   "filter": [
-    "Owners.Nickname=\"crowtherdr\"",
     "AssetState=\"Active\""
   ],
   "sort": [
     "+Order"
-  ]
+  ],
+  "comments": "change the nickname below to search for tasks assigned to different people.",
+  "with": {
+    "$memberNick": "crowtherdr"
+  }
 }
