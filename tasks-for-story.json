@@ -1,0 +1,21 @@
+{
+  "comments": "Change the story number below to find the tasks associated with a story.",
+  "from": "Task",
+  "select": [
+    "Parent.Number",
+    "Name",
+    "Number",
+    "ToDo",
+    "Status.Name",
+    "ChangeDate",
+    {
+      "from": "Owners",
+      "select": [
+        "Name"
+      ]
+    }
+  ],
+  "where": {
+    "Parent.Number": "S-39749"
+  }
+}
