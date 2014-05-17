@@ -1,0 +1,144 @@
+
+[
+{
+  "comments": "Can't or where operators. Must reiterate entire search with different 'where' clauses.",
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "CBergmann"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "crowtherdr"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "JBlack"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "JMoyes"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "JPodwys"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "KMalin"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "LAllred"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "Misbach"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "huffn"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "RHicks"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "TGraf"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "HSommer"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "MLiechty"
+  }
+},
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname"
+  ],
+  "where": {
+    "Nickname": "MHarten"
+  }
+}
+]
