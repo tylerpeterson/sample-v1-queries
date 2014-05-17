@@ -1,0 +1,19 @@
+{
+  "comments": "Get all of the categories for stories.",
+  "from": "StoryCategory",
+  "select": [
+    "Name",
+    "Order",
+    {
+      "comments": "Looking at how many schemes the category is used in tells you a bit more about it's prevalence.",
+      "from": "SelectedInSchemes",
+      "select": [
+        "Name"
+      ]
+    }
+  ],
+  "page": {
+    "start": 0,
+    "size": 50
+  }
+}
