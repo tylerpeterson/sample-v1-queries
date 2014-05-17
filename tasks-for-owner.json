@@ -1,0 +1,26 @@
+{
+  "from": "Task",
+  "select": [
+    "Name",
+    "Number",
+    "Parent.Name",
+    "Parent.Number",
+    "ToDo",
+    "Status.Name",
+    "ChangeDate",
+    {
+      "from": "Owners",
+      "select": [
+        "Name"
+      ]
+    }
+  ],
+  "comments": "change the owner nickname below to search for tasks assigned to different people.",
+  "filter": [
+    "Owners.Nickname=\"crowtherdr\"",
+    "AssetState=\"Active\""
+  ],
+  "sort": [
+    "+Order"
+  ]
+}
