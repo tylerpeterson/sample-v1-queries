@@ -1,0 +1,16 @@
+{
+  "from": "Epic",
+  "select": [
+    "Name", "Number", "Priority.Name", "Inactive", "PlannedEnd", "PlannedStart",
+    {"from": "SuperAndUp", "select": ["Name", "Number"]},
+    {"from": "SubsAndDown", "select": ["Number"], "where":{"AssetType":"Story"}}
+  ],
+  "where": {
+    "Category.Name": "Milestone",
+    "Status.Name": "In Progress"
+  },
+  "page": {
+    "start": 0,
+    "size": 50
+  }
+}
