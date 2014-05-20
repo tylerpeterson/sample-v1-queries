@@ -1,0 +1,36 @@
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Nickname",
+    {
+      "from": "Scopes",
+      "select": [
+        "Name",
+        "BeginDate",
+        "EndDate",
+        "Description",
+        "Owner.Name",
+        "Schedule.Name",
+        "Schedule.Description",
+        {
+          "from": "ScopeLabels",
+          "select": [
+            "Name",
+            "Description"
+          ]
+        }
+      ],
+      "filter": [
+        "EndDate>'2014-03-31T00:00:00.0000000'",
+        "BeginDate<'2014-06-30T00:00:00.0000000'"
+      ]
+    }
+  ],
+  "where": {
+    "Nickname": "$nick"
+  },
+  "with": {
+    "$nick": "crowtherdr"
+  }
+}
