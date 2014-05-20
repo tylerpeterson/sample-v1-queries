@@ -1,0 +1,7 @@
+{
+  "from": "Team",
+  "select": [
+    "Name",
+    "Description"
+  ]
+}
