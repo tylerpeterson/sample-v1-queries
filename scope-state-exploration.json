@@ -1,0 +1,19 @@
+{
+  "from": "Scope",
+  "select": [
+    "Name",
+    "AssetState",
+    "FakeAssetState",
+    "Inactive",
+    "IsClosed",
+    "IsDead",
+    "IsDeleted",
+    "IsInactive",
+    "IsReadOnly",
+    "RetireDate"
+  ],
+  "page": {
+    "start": 0,
+    "size": 100
+  }
+}
