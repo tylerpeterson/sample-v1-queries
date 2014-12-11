@@ -1,17 +1,27 @@
-
-[
-  "CBergmann",
-  "crowtherdr",
-  "JBlack",
-  "JMoyes",
-  "JPodwys",
-  "KMalin",
-  "LAllred",
-  "Misbach",
-  "huffn",
-  "RHicks",
-  "TGraf",
-  "HSommer",
-  "MLiechty",
-  "MHarten"
-]
+{
+  "teamTyler": [
+    "CBergmann",
+    "crowtherdr",
+    "JBlack",
+    "JMoyes",
+    "JPodwys",
+    "KMalin",
+    "LAllred",
+    "Misbach",
+    "huffn",
+    "RHicks",
+    "TGraf",
+    "HSommer",
+    "MLiechty",
+    "MHarten"
+  ],
+  "teamIndexingWD": [
+    "MCollins",
+    "PLiechty",
+    "SLambert",
+    "LAllred",
+    "RHicks",
+    "JAlbright",
+    "SPew"
+  ]
+}

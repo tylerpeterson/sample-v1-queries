@@ -1,4 +1,4 @@
-var nicks = require('./ad-hoc-nicknames');
+var nicks = require('./ad-hoc-nicknames').teamIndexingWD;
 var tasksQuery = require('./tasks-for-owner');
 var query = [];
 var fs = require('fs');
