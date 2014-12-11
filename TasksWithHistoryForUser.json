@@ -1,0 +1,32 @@
+{
+  "from": "Task",
+  "select": [
+    "Name",
+    "Number",
+    "ToDo",
+    "Status.Name",
+    "Owners.Name",
+    "ChangeDate",
+    {
+      "from": "History",
+      "select": [
+        "Status.Name",
+        "Owners.Name",
+        "ToDo",
+        "ChangeDate",
+        "ChangedBy.Name",
+        "ChangeReason"
+      ]
+    }
+  ],
+  "filter": [
+    "Owners.Name='Jeff Moyes'"
+  ],
+  "sort": [
+    "-ChangeDate"
+  ],
+  "page": {
+    "start": 0,
+    "size": 25
+  }
+}
