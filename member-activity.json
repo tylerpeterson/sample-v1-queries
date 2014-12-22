@@ -1,0 +1,25 @@
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Username",
+    "Nickname",
+    {
+      "from": "Activity",
+      "select": [
+        "UserAgent",
+        "ChangeDate",
+        {
+          "from": "History",
+          "select": [
+            "ChangeDate",
+            "UserAgent"
+          ]
+        }
+      ]
+    }
+  ],
+  "where": {
+    "Name": "Tyler Peterson"
+  }
+}
