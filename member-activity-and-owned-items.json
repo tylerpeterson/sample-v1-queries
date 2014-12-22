@@ -1,0 +1,38 @@
+{
+  "from": "Member",
+  "select": [
+    "Name",
+    "Username",
+    "Nickname",
+    {
+      "from": "Activity",
+      "select": [
+        "AssetType",
+        "UserAgent",
+        "ChangeComment",
+        "ChangeDate",
+        "ChangeReason",
+        {
+          "from": "History",
+          "select": [
+            "ChangeDate"
+          ]
+        }
+      ]
+    },
+    {
+      "from": "OwnedWorkitems",
+      "select": [
+        "Number",
+        "Name",
+        "AssetState",
+        "ChangeDate",
+        "AssetType",
+        "Owners.Name"
+      ]
+    }
+  ],
+  "where": {
+    "Nickname": "JMoyes"
+  }
+}
