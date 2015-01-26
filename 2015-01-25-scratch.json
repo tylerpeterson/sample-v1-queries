@@ -1,0 +1,26 @@
+[
+  {
+    "from": "Member",
+    "select": [
+      "Name",
+      "Nickname"
+    ],
+    "where": {
+      "ID": "Member:28390"
+    }
+  },
+  {
+    "from": "Task",
+    "select": [
+      "Name",
+      "Status.Name",
+      "ChangeDate"
+    ],
+    "where": {
+      "Owners.ID": "Member:28390"
+    },
+    "sort": [
+      "-ChangeDate"
+    ]
+  }
+]
